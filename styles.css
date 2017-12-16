@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 750px;
+	height: 750px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+}
+
+.menu {
+	margin: 0 auto;
+	width: 400px;
+	margin-bottom: 10px;
+}
+
+.menu button {
+	display: inline-block;
+}
+
+.menu p {
+	display: inline-block;
+	margin-bottom: 2px;
+}

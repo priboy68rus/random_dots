@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Random Dots</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="menu">
+		<button id="start">Start</button>
+		<button id="stop">Stop</button>
+		<button id="reset">Reset</button>
+
+
+		<input type="range" id="speed" min="0" max="8" value="0">
+		<p>Speed: </p>
+		<p id="speed-text">10</p>
+
+
+		<input type="range" id="order" min="2" max="8" value="3">
+		<p>Main dots: </p>
+		<p id="order-text">0/3</p>
+
+	</div>
+	<div class="container">
+		<canvas id="canvas" width=750px height=750px></canvas>
+	</div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
